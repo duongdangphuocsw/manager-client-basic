@@ -1,0 +1,75 @@
+body 
+{
+    background-color: #FFE135;
+    margin: 0;
+}
+.container > h1 {
+    text-align: center;
+    color: #FF0800;
+    font-size: 40px;
+}
+#list-clients {
+   width: 100%;
+   padding: 0;
+}
+#list-clients li {
+    width: 90%;
+    list-style: none;
+    background-color: #848482;
+    border-radius: 10px;
+    padding: 10px 10px 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+#list-clients li h1 span {
+    font-weight: 500;
+}
+#list-clients li p 
+{
+    font-size: 25px;
+}
+#list-clients li button {
+    background-color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    color: #f5f5f5;
+    transition: all 0.5s ease-in-out;
+    margin-top: 10px;
+}
+#list-clients li button:hover {
+    color: #000;
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+.formCreateClient {
+    padding: 20px;
+}
+.formCreateClient .header {
+    text-transform: uppercase;
+}
+.formCreateClient .form-containner {
+    margin: 10px 0;
+    display: flex;
+}
+.formCreateClient .form-containner label{
+    width: 7%;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+}
+.formCreateClient .form-containner input {
+    height: 25px;
+    width: 30%;
+}
+.formCreateClient .container {
+    width: 37%;
+    position: relative;
+}
+.formCreateClient .container button {
+    position: absolute;
+    right: 0%;
+    font-size: 20px;
+    background-color: #FF0800;
+    border-radius: 20px;
+}

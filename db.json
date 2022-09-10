@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "name": "Duong Dang Phuoc",
+      "age": "18",
+      "id": 3
+    },
+    {
+      "name": "Nguyen Le Dieu Linh",
+      "age": "19",
+      "id": 4
+    },
+    {
+      "name": "Pham Minh Tuan",
+      "age": "19",
+      "id": 5
+    }
+  ]
+}
